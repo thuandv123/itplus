@@ -13,8 +13,18 @@ label{
     color: white;
 }
 input[type=submit] {
-    background-color:rgb(55, 175, 175);
-    color:yellow;
+    background-color:beige;
+    color:red;
+    margin: auto;
+    width: 80px;
+    text-align: center;
+}
+input[type=reset] {
+    background-color:beige;
+    color:red;
+    margin: auto;
+    width: 80px;
+    text-align: center;
 }
 input[type=submit]:hover{
     background-color: blue;
@@ -28,6 +38,7 @@ input[type=reset]:hover{
 }
 input{
     border-radius: 5px;
+    width: 150px;
 }
 input:hover{
     border-color: blue;
@@ -38,6 +49,7 @@ body{
 label{
     display: block;
 }
-input:required{
-content: "*";
- }
+.required{
+    content: "*";
+    color: red;
+}
