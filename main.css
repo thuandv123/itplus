@@ -1,0 +1,43 @@
+form {
+    margin: auto;
+    width: 15%;
+    height: 100%;
+    border: 100px green;
+    border-radius: 10px;
+    background-color: gray;
+    text-align: center;
+    display:block;
+    
+}
+label{
+    color: white;
+}
+input[type=submit] {
+    background-color:rgb(55, 175, 175);
+    color:yellow;
+}
+input[type=submit]:hover{
+    background-color: blue;
+    color: beige;
+    cursor: pointer;
+}
+input[type=reset]:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+input{
+    border-radius: 5px;
+}
+input:hover{
+    border-color: blue;
+}
+body{
+    background-image:url(Jellyfish.jpg);
+}
+label{
+    display: block;
+}
+input:required{
+content: "*";
+ }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title> Trang nhập dữ liệu </title>
+        <meta name='viewpoint' content='width=device-width, intial-scale=1'>
+        <link rel='stylesheet' type="text/css" media="screen" href="main.css">
+        <script src='main.js'></script>
+
+    </head>
+    <body>
+        <form action="https://604f548bc20143001744cc5c.mockapi.io/submit/doan" method="POST">
+            <label>Họ và tên</label><br>
+            <input name="hoten" type = "text" maxlength="50" minlength="5">
+            <br>
+            <label>Tuổi</label>
+            <br>
+            <input name="tuoi" type="number" min="18" max="35">
+            <br>
+            <label>Chức vụ</label>
+            <br>
+            <label>Dev</label>
+            <input name="radio" type="radio" value="Dev" name="Chuc vu">
+            <label>Tester</label>
+            <input name="radio" type="radio" value="Tester" name="Chuc vu">
+            <label>PM</label>
+            <input name="radio" type="radio" value="PM" name="Chuc vu">
+            <label>Techlead</label>
+            <input name="radio" type="radio" value="Techlead" name="Chuc vu">
+            <br>
+            <label>Bio</label>
+            <br>
+            <textarea name="bio"></textarea>
+            <br>
+            <label>Y tuong do an</label>
+            <br>
+            <textarea name="idea"></textarea>
+            <br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
