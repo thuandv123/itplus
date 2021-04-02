@@ -6,8 +6,7 @@ form {
     border-radius: 10px;
     background-color: gray;
     text-align: center;
-    display:block;
-    
+    display: block;
 }
 label{
     color: white;
@@ -49,7 +48,6 @@ body{
 label{
     display: block;
 }
-.required{
-    content: "*";
-    color: red;
+input[type=label]:required{
+    content:"*";
 }

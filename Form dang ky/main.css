@@ -1,20 +1,40 @@
 form {
-    width: 50%;
-    height: 100%;
-    border-width: 2px black;
+    width: 600px;
+    border: gray solid 2px;
     border-radius: 5px;
     background-color: white;
     text-align: left;
-    display: block;
-    border: 100px green;
+    display: inline-block;
+    margin: auto;
+}
+h1 {
+    color: deepskyblue;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 h2{
+    color: deepskyblue;
     text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 div {
-    background-color: rgba(0, 238, 238, 0.507);
+    background-color: deepskyblue;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 2px;
+    height: 30px;
     color: white;
+    text-align: left;   
 }
-label{
+label {
+    color: black;
     display: block;
+    margin: 5px 10px 5px 10px;
+}
+input{
+    border-radius: 5px;
+    width: 400px;
+    margin: 5px 10px 5px 10px;
 }
