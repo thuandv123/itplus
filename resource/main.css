@@ -1,37 +1,64 @@
 body {
     margin: 0;
-    width: 100%;
     background: #FC466B;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    min-height: 100vh;
+}
+header h1 {
+    text-align: center;
+    color: white;
 }
 nav ul {
-    width: 100%;
+    overflow: hidden;
     list-style-type: none;
     background-color: burlywood;
-    height: 30px;
+    margin: 0;
+    padding: 0
     
 }
 nav ul li {
-    float left;
-    display: inline-block;
-    padding: 0.5px;
+    float: left;
+
 }
 nav ul li a {
     text-decoration: none;
     display: block;
-    color: white;
+    color: brown;
+    padding: 0 5px;
 }
 nav ul li a:hover {
-    background-color: black;
-}
-article {
-    margin: 15px;
-    padding: 0.6px;
-    background-color: chocolate;
-}
-nav .nav.active {
     background-color: antiquewhite;
     color: black;
+}
+article {
+    font-size: 20px;
+    margin: 15px;
+    padding: 0 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:antiquewhite;
+}
+nav .nav-active {
+    background-color: antiquewhite;
+    color: black;
+}
+@media only screen and (max-width: 800px) {
+    nav ul li {
+      float:none;
+      color: #FC466B;
+    }
+  }
+ h4{
+     color: white;
+     margin: 15px;
+     font-size: 30px;
+ } 
+p {
+    margin: 10 10 10 10 px;
+} 
+pre{
+    background-color: gray;
+    width: 100%;
+    text-align: left;
 }
