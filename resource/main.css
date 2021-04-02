@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    width: 100%;
+    background: #FC466B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+nav ul {
+    width: 100%;
+    list-style-type: none;
+    background-color: burlywood;
+    height: 30px;
+    
+}
+nav ul li {
+    float left;
+    display: inline-block;
+    padding: 0.5px;
+}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+nav ul li a:hover {
+    background-color: black;
+}
+article {
+    margin: 15px;
+    padding: 0.6px;
+    background-color: chocolate;
+}
+nav .nav.active {
+    background-color: antiquewhite;
+    color: black;
+}
