@@ -8,13 +8,18 @@ body {
 header h1 {
     text-align: center;
     color: white;
+    font-size: 50px;
 }
 nav ul {
     overflow: hidden;
     list-style-type: none;
     background-color: burlywood;
     margin: 0;
-    padding: 0
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 10px;
+    font-size: 25px;
     
 }
 nav ul li {
@@ -32,6 +37,7 @@ nav ul li a:hover {
     color: black;
 }
 article {
+    width: 100%;
     float: left;
     font-size: 20px;
     margin: 15px;
@@ -43,6 +49,7 @@ article {
 nav .nav-active {
     background-color: antiquewhite;
     color: black;
+    border: orangered 1px;
 }
 @media only screen and (max-width: 800px) {
     nav ul li {
@@ -53,7 +60,7 @@ nav .nav-active {
  h4{
      color: white;
      margin: 15px;
-     font-size: 30px;
+     font-size: 35px;
  } 
 p {
     margin: 10 10 10 10 px;
