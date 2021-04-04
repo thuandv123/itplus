@@ -37,11 +37,10 @@ nav ul li a:hover {
     color: black;
 }
 article {
-    width: 100%;
     float: left;
     font-size: 20px;
     margin: 15px;
-    padding: 0 10px;
+    padding: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     background-color:antiquewhite;
@@ -64,9 +63,11 @@ nav .nav-active {
  } 
 p {
     margin: 10 10 10 10 px;
+    text-overflow: none;
 } 
 pre{
     background-color: gray;
     width: 100%;
     text-align: left;
+    text-overflow: none;
 }
