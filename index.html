@@ -6,7 +6,10 @@
     <title>BLOG OF TEN</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='resource/main.css'>
-    <script src='resource/main.js'></script>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -20,6 +23,32 @@
             <li><a href="moment.html">MomentJS</a></li>
         </ul>
     </nav>
-    
 </body>
+<div>
+    <form name="formCmt" action="" method="POST" style="width: 400px; margin: auto;" onsubmit="return validateFormComment()">
+        <h1>FORM--Tạo comment</h1>
+        <label>Email:</label><br>
+        <input type="email" name="email" id="email"required></input><br>
+        <label>Tiêu đề:</label><br>
+        <input type="text" name="title" id="title"required></input><br>
+        <label>Content:</label><br>
+        <textarea type="text" name="content" id="content"required></textarea><br>
+        <p id="form-error"></p>
+        <div class="btn-section"></div>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+    </div>
+    </form>
+</div>
+
+<div id="comment" class="comment-back">
+    <div>
+        <h3>Bài viết rất hay</h3>
+        <span>hocsinhhoccode@gmail.com</span>
+        <div></div>
+    </div>
+</div>
+<footer>
+    <div>©2016 Web cơ bản All Rights Reserved</div>
+</footer>
 </html>

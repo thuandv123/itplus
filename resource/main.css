@@ -1,19 +1,28 @@
 body {
-    margin: 0;
-    background: #FC466B;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    min-height: 100vh;
+    height: 800px;
+    width: 1200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: beige;
 }
 header h1 {
     text-align: center;
-    color: white;
+    color: brown;
     font-size: 50px;
+    
+}
+nav{
+    width: 1240px;
+    position: sticky;
+    top: 0;
+    padding: 5px 5px;
 }
 nav ul {
     overflow: hidden;
     list-style-type: none;
-    background-color: burlywood;
+    background-color: brown;
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -29,7 +38,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     display: block;
-    color: brown;
+    color: white;
     padding: 0 5px;
 }
 nav ul li a:hover {
@@ -37,13 +46,15 @@ nav ul li a:hover {
     color: black;
 }
 article {
+    width: 1200px;
     float: left;
     font-size: 20px;
     margin: 15px;
     padding: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color:antiquewhite;
+    background-color:burlywood;
+    color:white;
 }
 nav .nav-active {
     background-color: antiquewhite;
@@ -52,12 +63,12 @@ nav .nav-active {
 }
 @media only screen and (max-width: 800px) {
     nav ul li {
-      float:none;
+      float: none;
       color: #FC466B;
     }
   }
  h4{
-     color: white;
+     color: brown;
      margin: 15px;
      font-size: 35px;
  } 
@@ -66,8 +77,31 @@ p {
     text-overflow: none;
 } 
 pre{
-    background-color: gray;
+    background-color:black;
     width: 100%;
     text-align: left;
     text-overflow: none;
+    
 }
+footer{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color: brown;
+}
+div{
+    display: block;
+    padding-top: 20px;
+    color: brown;
+    
+}
+textarea{
+    height: 100px;
+    width: 500px;
+}
+code {
+    white-space: break-spaces;
+    }
+    .article {
+    float: none;
+    }
