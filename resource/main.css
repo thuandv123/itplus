@@ -1,5 +1,4 @@
 body {
-    height: 800px;
     width: 1200px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -47,7 +46,6 @@ nav ul li a:hover {
 }
 article {
     width: 1200px;
-    float: left;
     font-size: 20px;
     margin: 15px;
     padding: 10px;
